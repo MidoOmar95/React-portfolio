@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #555555;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.About-text {
+  float: left;
+}
+
+.logo-size {
+  height: 200px;
+  width: 150px;
+}
+
+.bg {
+  background-image: url("http://jmd.im/black_wallpapers/III/desktop/BLACK_III_desktop-2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.land-logo {
+  padding-top: 60px;
+  width: 300px;
+  height: auto;
+}
+
+.login {
+  width: auto;
+  height: 30px;
+  rotate: 30deg;
+  -ms-transform: rotate(30deg); /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Safari 3-8 */
+  transform: rotate(30deg);
+}
+.enter-btn {
+  margin-top: 60px;
+  height: 100px;
+  width: 200px;
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  font-family: "sans-serif";
+  font-size: 20px;
+}
+
+.enter-btn:hover {
+  background-color: #999;
+  border: 2px solid #555555;
+  color: #000000;
+}
+
+.back{
+  width: 700px;
+}
+
+.icon-bar {
+  width: 100%;
+  /* background-color: #555; */
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.html-btn{
+  height: 75px;
+  width: 75px;
+}
+
+/* .icon-bar a:hover {
+  background-color: #000;
+} */
+
+
+/* .wrap{
+  position: relative;
+} */
+
+.py{
+  height: auto;
+  width: 8%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+.bs{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.html{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+/* .css{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 860px;
+}
+
+.sass{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 760px;
+}
+
+.js{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 660px;
+}
+
+.jq{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 560px;
+}
+
+.java{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 360px;
+}
+
+.npm{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 260px;
+}
+
+.sql{
+  height: 80px;
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 460px;
+} */

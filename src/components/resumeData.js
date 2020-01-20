@@ -317,7 +317,7 @@ let resumeData = {
     },
     {
       logo: mso,
-      name: "Microsoft Office",
+      name: "MS Office",
       link:"https://www.office.com/"
     }
   ],

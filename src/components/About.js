@@ -6,7 +6,7 @@ export default function About(props) {
   return (
     <section id="about">
       <div className="row">
-      <ScrollAnimation animateIn='bounceInRight' animateOnce={true}>
+      <ScrollAnimation animateIn='bounceInLeft' animateOnce={true}>
         <div className="three columns">
           <img className="profile-pic" src="images/profilepic.jpg" alt="" />
         </div>

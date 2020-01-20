@@ -33,11 +33,11 @@ export default class Landing extends React.Component {
     <div className="bg">
         <div className="wrap">
       <div className="container">
-      <Fade effect="fadeInUp" delay={1500}>
+      <Fade effect="fadeInUp" delay={1000}>
         <img src={logo} className="land-logo" alt="Logo" />
         </Fade>
         <br />
-        <Fade effect="fadeInUp" delay={2000}>
+        <Fade effect="fadeInUp" delay={1500}>
         <div className="section three">
           <div id="button" onClick={nav}>
             Enter
@@ -50,7 +50,7 @@ export default class Landing extends React.Component {
         </Fade>
         <br />
       </div>
-      <Fade effect="fadeInUp" delay={3000}>
+      <Fade effect="fadeInUp" delay={2000}>
       <footer style={{marginBottom:"0px"}}>
       <div className="row" style={{paddingTop:"175px"}}>
         <div className="twelve columns">

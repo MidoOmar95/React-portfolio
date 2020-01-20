@@ -14,9 +14,9 @@ export default function Resume(props) {
         <div className="nine columns main-col">
         <ScrollAnimation animateIn='bounceInRight' animateOnce={true}>
           {resumeData.education &&
-            resumeData.education.map(item => {
+            resumeData.education.map((item,i) => {
               return (
-                <div className="row item">
+                <div className="row item" key={i}>
                   <div className="twelve columns">
                     <h3>{item.UniversityName}</h3>
                     <p className="info">
@@ -45,9 +45,9 @@ export default function Resume(props) {
         </div>
         <div className="nine columns main-col">
           {resumeData.work &&
-            resumeData.work.map(item => {
+            resumeData.work.map((item,i) => {
               return (
-                <ScrollAnimation animateIn='bounceInRight' animateOnce={true}>
+                <ScrollAnimation animateIn='bounceInRight' animateOnce={true} key={i}>
                 <div className="row item">
                   <div className="twelve columns">
                     <h3>{item.CompanyName}</h3>
@@ -87,9 +87,9 @@ export default function Resume(props) {
         </div>
         <div className="nine columns main-col">
           {resumeData.leadership &&
-            resumeData.leadership.map(item => {
+            resumeData.leadership.map((item,i) => {
               return (
-                <ScrollAnimation animateIn='bounceInRight' animateOnce={true}>
+                <ScrollAnimation animateIn='bounceInRight' animateOnce={true} key={i}>
                 <div className="row item">
                   <div className="twelve columns">
                     <h3>{item.CompanyName}</h3>
@@ -129,14 +129,15 @@ export default function Resume(props) {
           <div className="bars">
             <ul className="skills">
               {resumeData.lang &&
-                resumeData.lang.map(item => {
+                resumeData.lang.map((item,i) => {
                   return (
-                    <ScrollAnimation animateIn='flipInY' animateOnce={true} style={{margin:"15px",display:"inline-block",textAlign:"center"}}>
+                    <ScrollAnimation animateIn='flipInY' animateOnce={true} style={{margin:"15px",display:"inline-block",textAlign:"center"}} key={i}>
                     <a>
                       <button style={{marginBottom:"0px",height:"75px",width:"75px"}}>
                     <img
                       src={item.logo}
                       style={{ height: "45px", width:"100%", paddingTop: "1px" }}
+                      alt="Lang"
                     />
                     </button>
                     <p style={{fontSize:"15px"}}>{item.name}</p>
@@ -160,14 +161,15 @@ export default function Resume(props) {
           <div className="bars">
             <ul className="skills">
               {resumeData.tech &&
-                resumeData.tech.map(item => {
+                resumeData.tech.map((item,i) => {
                   return (
-                    <ScrollAnimation animateIn='flipInY' animateOnce={true} style={{display:"inline-block",textAlign:"center"}}>
+                    <ScrollAnimation animateIn='flipInY' animateOnce={true} style={{display:"inline-block",textAlign:"center"}} key={i}>
                     <a>
                       <button style={{margin:"10px",marginBottom:"0px",height:"75px",width:"75px"}} onClick={()=> window.open(item.link, "_blank")}>
                     <img
                       src={item.logo}
                       style={{ height: "45px", width:"100%", paddingTop: "1px" }}
+                      alt="Tech"
                     />
                     </button>
                     <p style={{fontSize:"15px"}}>{item.name}</p>

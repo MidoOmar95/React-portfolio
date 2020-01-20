@@ -22,6 +22,8 @@ export default function About(props) {
               <p className="address">
                 <span className="About-text">Mobile Number: +1 813-317-4423</span>
                 <br />
+                <span className="About-text">Email: mohamedwomar21@gmail.com</span>
+                <br />
                 <span className="About-text">
                   Location: {resumeData.address}
                 </span>

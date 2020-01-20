@@ -7,9 +7,9 @@ export default function Footer(props) {
         <div className="twelve columns">
           <ul className="social-links">
             {resumeData.socialLinks &&
-              resumeData.socialLinks.map(item => {
+              resumeData.socialLinks.map((item,i) => {
                 return (
-                  <li>
+                  <li  key={i}>
                     <a href={item.url}>
                       <i className={item.className} />
                     </a>
@@ -18,6 +18,7 @@ export default function Footer(props) {
               })}
           </ul>
         </div>
+        <p style={{color:"white"}}>© 2020 Mohamed Omar. All rights reserved.</p>
         <div id="go-top">
           <a className="smoothscroll" title="Back to Top" href="#home">
             <i className="icon-up-open" />

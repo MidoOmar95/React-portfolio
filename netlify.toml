@@ -1,0 +1,10 @@
+# A basic redirect rule
+[[redirects]]
+  from = "/*"
+  to = "/home"
+
+[[redirects]]
+  from = "/old-path"
+  to = "/new-path"
+  status = 301
+  force = false

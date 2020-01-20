@@ -41,7 +41,7 @@
 }
 
 .bg {
-  background-image: url("http://jmd.im/black_wallpapers/III/desktop/BLACK_III_desktop-2.jpg");
+  background-image: url("./media/bg.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

@@ -199,7 +199,7 @@ let resumeData = {
   lang: [
     {
       logo: js,
-      name: "JavaScript"
+      name: "JavaScript",
     },
     {
       logo: html,
@@ -252,73 +252,73 @@ let resumeData = {
     {
       logo: njs,
       name: "Node.js",
-      link:""
+      link:"https://nodejs.org/en/"
     },
     {
       logo: ide,
-      name: "Intellij IDE",
-      link:""
+      name: "Intellij IDEA",
+      link:"https://www.jetbrains.com/idea/"
     },
     {
       logo: pc,
       name: "Pycharm",
-      link:""
+      link:"https://www.jetbrains.com/pycharm/"
     },
     {
       logo: vs,
       name: "Visual Studio",
-      link:""
+      link:"https://visualstudio.microsoft.com/vs/"
     },
     {
       logo: vsc,
       name: "VS Code",
-      link:""
+      link:"https://code.visualstudio.com/?wt.mc_id=DX_841432"
     },
     {
       logo: e,
       name: "Eclipse",
-      link:""
+      link:"https://www.eclipse.org/"
     },
     {
       logo: aws,
       name: "AWS",
-      link:""
+      link:"https://aws.amazon.com/"
     },
 
     {
       logo: bs,
       name: "Bootstrap",
-      link:""
+      link:"https://getbootstrap.com/"
     },
     {
       logo: db,
       name: "DBeaver",
-      link:""
+      link:"https://dbeaver.io/"
     },
     {
       logo: p,
       name: "PostgreSQL",
-      link:""
+      link:"https://www.postgresql.org/"
     },
     {
       logo: m,
       name: "MongoDB",
-      link:""
+      link:"https://www.mongodb.com/"
     },
     {
       logo: jq,
       name: "jQuery",
-      link:""
+      link:"https://jquery.com/"
     },
     {
       logo: ang,
       name: "AngularJS",
-      link:""
+      link:"https://angularjs.org/"
     },
     {
       logo: mso,
       name: "Microsoft Office",
-      link:""
+      link:"https://www.office.com/"
     }
   ],
   portfolio: [

@@ -128,7 +128,7 @@ export default function Resume(props) {
                 resumeData.lang.map(item => {
                   return (
                     <a>
-                      <button style={{marginBottom:"0px",height:"75px",width:"75px"}} onClick={()=> window.open(item.link, "_blank")}>
+                      <button style={{marginBottom:"0px",height:"75px",width:"75px"}}>
                     <img
                       src={item.logo}
                       style={{ height: "45px", width:"100%", paddingTop: "1px" }}
@@ -149,6 +149,7 @@ export default function Resume(props) {
           <h1>
             <span>Technologies</span>
           </h1>
+          <p style={{textAlign:"left"}}>Click on a Technology to learn more!</p>
         </div>
         <div className="nine columns main-col">
           <div className="bars">

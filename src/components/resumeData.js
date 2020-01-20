@@ -51,12 +51,11 @@ let resumeData = {
       url: "https://www.hackerrank.com/MidoOmar95",
       className: "fab fa-hackerrank"
     },
-    {
-      name: "stack overflow",
-      url: "https://stackoverflow.com/users/7728625/mohamed-omar",
-      className: "fab fa-stack-overflow"
-    },
-
+    // {
+    //   name: "stack overflow",
+    //   url: "https://stackoverflow.com/users/7728625/mohamed-omar",
+    //   className: "fab fa-stack-overflow"
+    // },
     {
       name: "Revature Profile",
       url:"https://app.revature.com/profile/Mido/a2e99c335abdd45da0aa01725053111f",

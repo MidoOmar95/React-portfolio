@@ -10,7 +10,7 @@ export default function Footer(props) {
               resumeData.socialLinks.map((item,i) => {
                 return (
                   <li  key={i}>
-                    <a href={item.url}>
+                    <a href={item.url} rel="noopener noreferrer" target="_blank">
                       <i className={item.className} />
                     </a>
                   </li>

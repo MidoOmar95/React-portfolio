@@ -9,16 +9,13 @@ export default function Header(props){
       <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-              <a className="mobile-btn" title="Hide navigation" href="/#">Hide navigation</a>
+              <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
-            <img src={logo} style={{height:"50px", width:"auto",float:"left", paddingTop:"5px", paddingLeft:"20px",paddingBottom:"5px"}} alt="Logo"/>
-               <ul style={{textAlign:"right", paddingRight:"50px"}}>
               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
               <li><a className="smoothscroll" href="#about">About</a></li>
               <li><a className="smoothscroll" href="#resume">Resume</a></li>
               <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
               <li><a className="smoothscroll" href="#contact">Contact</a></li>
-              </ul>
             </ul>
          </nav>
          <div className="row banner">

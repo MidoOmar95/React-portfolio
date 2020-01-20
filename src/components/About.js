@@ -15,25 +15,6 @@ export default function About(props) {
           <p className="About-text" style={{ textAlign: "left" }}>
             {resumeData.roleDescription}
           </p>
-          <div className="row">
-            <div className="columns contact-details">
-              <h2 className="About-text">Contact Details</h2>
-              <br />
-              <p className="address">
-                <span className="About-text">Mobile Number: +1 813-317-4423</span>
-                <br />
-                <span className="About-text">Email: mohamedwomar21@gmail.com</span>
-                <br />
-                <span className="About-text">
-                  Location: {resumeData.address}
-                </span>
-                <br />
-                <span className="About-text">
-                  Nationality: American-Egyptian
-                </span>
-              </p>
-            </div>
-          </div>
         </div>
         </ScrollAnimation>
       </div>

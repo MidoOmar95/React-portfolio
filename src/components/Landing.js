@@ -4,12 +4,15 @@ import logo from "../media/logo.png";
 import "../App.css";
 import "../Anime.scss";
 import resumeData from './resumeData';
+import Fade from 'react-reveal/Fade';
 export default function Landing() {
   return (
     <div className="bg">
       <wrapper className="wrap">
       <div className="container">
+      <Fade effect="fadeInUp">
         <img src={logo} className="land-logo" alt="Logo" />
+        </Fade>
         <br />
         <div class="section three">
           <div id="button" onClick={nav}>
@@ -22,6 +25,7 @@ export default function Landing() {
         </div>
         <br />
       </div>
+      <Fade effect="fadeInUp">
       <footer style={{marginBottom:"0px"}}>
       <div className="row" style={{paddingTop:"175px"}}>
         <div className="twelve columns">
@@ -40,6 +44,7 @@ export default function Landing() {
         </div>
       </div>
     </footer>
+    </Fade>
     </wrapper>
     </div>
   );

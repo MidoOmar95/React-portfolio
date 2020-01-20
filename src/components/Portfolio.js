@@ -1,10 +1,12 @@
 import React from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 export default function Porfolio(props) {
   let resumeData = props.resumeData;
   return (
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
+        <ScrollAnimation animateIn='bounceInLeft' animateOnce={true}>
           <h1>Check Out Some of My Work!</h1>
           <div
             id="portfolio-wrapper"
@@ -27,12 +29,9 @@ export default function Porfolio(props) {
                 );
               })}
           </div>
+          </ScrollAnimation>
         </div>
       </div>
     </section>
   );
 }
-
-// function redirect(link){
-//   return window.location.replace(link)
-// }

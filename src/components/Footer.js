@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Footer(props) {
   let resumeData = props.resumeData;
   return (

@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from '../media/logo.png'
 import'../App.css'
+import ScrollAnimation from 'react-animate-on-scroll';
 export default function Header(props){
     let resumeData = props.resumeData;
     return (
       <React.Fragment>
-      
       <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -22,6 +22,7 @@ export default function Header(props){
             </ul>
          </nav>
          <div className="row banner">
+         <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
             <div className="banner-text">
             <img src={logo} className="logo-size" alt="Logo" />
                <h1 className="responsive-headline">{resumeData.name}</h1>
@@ -32,6 +33,7 @@ export default function Header(props){
                     return(<li key={item.name}> <a href={item.url} rel="noopener noreferrer" target="_blank"><i className={item.className}></i></a> </li>)})}
                </ul>
             </div>
+         </ScrollAnimation>      
          </div>
          <p className="scrolldown"><a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a></p>
       </header>

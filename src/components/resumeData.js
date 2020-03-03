@@ -80,6 +80,23 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Infosys",
+      specialization: "Software Engineer",
+      JobType: "Full-time",
+      MonthOfStarting: "Feb",
+      YearOfStarting: "2020",
+      MonthOfLeaving: "Present",
+      // YearOfLeaving: "2020",
+      duration: "Ongoing",
+      Location: "Milwaukee, WI",
+      // line1:
+      //   "• Developed a fully functioning application named Widget Management Dashboard (WMD) from scratch including frontend, backend and utilizing Amazon Web Services",
+      // line2:
+      //   "• Created multiple automated tests written in Java as part of the quality assurance team for the AP Program division",
+      // line3:
+      //   "• Enhanced existing widgets and apps such as the search bar and creating a UI blueprint in JavaScript for the Widget team"
+    },
+    {
       CompanyName: "The Collegeboard",
       specialization: "Software Engineer",
       JobType: "Full-time",

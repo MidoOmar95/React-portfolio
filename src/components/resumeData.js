@@ -75,7 +75,7 @@ let resumeData = {
       MonthOfPassing: "Jun",
       YearOfPassing: "2018",
       Location: "Cairo, Egypt",
-      Achievements: "Major: Computer Science and Engineering, CGPA: 3.0/4.0"
+      Achievements: "Major: Computer Science and Engineering, CGPA: 3.35/4.0"
     }
   ],
   work: [

@@ -34,7 +34,7 @@ let resumeData = {
   name: "Mohamed Omar",
   role: "Full-stack Software Engineer",
   roleDescription:
-    " Outgoing Full-stack Software Engineer with multiple experiences at corporate companies including Microsoft, IBM & most recently College Board. Relishing the opportunity to turn my ambition to useful motivation at a multinational company where I can capitalize on my knowledge and further develop my skills. Seeking to leverage my technical and professional expertise to grow in the new role of Software Engineer at your company.",
+    " Outgoing Full-stack Software Engineer with multiple experiences at corporate companies including College Board, IBM, Microsoft & most recently Northwestern Mutual. Relishing the opportunity to turn my ambition to useful motivation at a multinational company where I can capitalize on my knowledge and further develop my skills. Seeking to leverage my technical and professional expertise to grow in the new role of Software Engineer at your company.",
   socialLinks: [
     {
       name: "linkedin",
@@ -80,21 +80,21 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "Infosys",
+      CompanyName: "Northwestern Mutual",
       specialization: "Software Engineer",
       JobType: "Full-time",
       MonthOfStarting: "Feb",
       YearOfStarting: "2020",
-      MonthOfLeaving: "Present",
+      MonthOfLeaving: "Current",
       // YearOfLeaving: "2020",
       duration: "Ongoing",
       Location: "Milwaukee, WI",
-      // line1:
-      //   "• Developed a fully functioning application named Widget Management Dashboard (WMD) from scratch including frontend, backend and utilizing Amazon Web Services",
-      // line2:
-      //   "• Created multiple automated tests written in Java as part of the quality assurance team for the AP Program division",
-      // line3:
-      //   "• Enhanced existing widgets and apps such as the search bar and creating a UI blueprint in JavaScript for the Widget team"
+      line1:
+        "• Developed front-end UI for applications utilizing ReactJS with JavaScript to enhance user experience and optimize performance",
+      line2:
+        "• Updated legacy Java applications to newer Java versions as well as Python to further improve the efficiency and application capabilities",
+      line3:
+        "• Participated in migrating cloud data of projects and microservices from Microsoft Azure server to AWS"
     },
     {
       CompanyName: "The Collegeboard",

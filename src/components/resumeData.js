@@ -90,9 +90,9 @@ let resumeData = {
       duration: "Ongoing",
       Location: "Milwaukee, WI",
       line1:
-        "• Developed front-end UI for applications utilizing ReactJS with JavaScript to enhance user experience and optimize performance",
-      line2:
         "• Updated legacy Java applications to newer Java versions as well as Python to further improve the efficiency and application capabilities",
+      line2:
+        "• Developed front-end UI for applications utilizing ReactJS with JavaScript to enhance user experience and optimize performance",
       line3:
         "• Participated in migrating cloud data of projects and microservices from Microsoft Azure server to AWS"
     },

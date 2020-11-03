@@ -351,7 +351,7 @@ let resumeData = {
       link:"https://github.com/MidoOmar95/SplitSmart",
     },
     {
-      name: "Expoense Reimbursement System",
+      name: "Expense Reimbursement System",
       description: "Web App",
       imgurl: ers,
       link:"https://github.com/MidoOmar95/ERS",

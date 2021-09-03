@@ -9,7 +9,7 @@ export default function ContactUs(){
               <p className="lead" style={{alignContent:"center", color:"white"}}>
               Feel free to contact me or view my other profiles using the icons below!
               </p>
-              <p className="lead" style={{alignContent:"center", color:"white"}}>Or to download my resume: <button  onClick={()=> window.open("https://drive.google.com/file/d/1fPrLXRCy66PW9ji0aSqw5B2jqfuiFQpB/view?usp=sharing", "_blank")}>Click Here!</button></p>
+              <p className="lead" style={{alignContent:"center", color:"white"}}>Or to download my resume: <button  onClick={()=> window.open("https://docs.google.com/document/d/1xI5o4Zud9TVOSZ7k7GqyhJvY9-eNFBZSlvPVsDkcuXA/edit?usp=sharing", "_blank")}>Click Here!</button></p>
             </ScrollAnimation>
             </div>
           </div>

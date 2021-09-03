@@ -80,14 +80,31 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "JP Morgan Chase & Co",
+      specialization: "Software Engineer",
+      JobType: "Full-time",
+      MonthOfStarting: "Feb",
+      YearOfStarting: "2021",
+      MonthOfLeaving: "Current",
+      // YearOfLeaving: "2020",
+      duration: "Ongoing",
+      Location: "Jersey City, NJ",
+      line1:
+        "• ",
+      line2:
+        "• ",
+      line3:
+        "• "
+    },
+    {
       CompanyName: "Northwestern Mutual",
       specialization: "Software Engineer",
       JobType: "Full-time",
       MonthOfStarting: "Feb",
       YearOfStarting: "2020",
-      MonthOfLeaving: "Current",
-      // YearOfLeaving: "2020",
-      duration: "Ongoing",
+      MonthOfLeaving: "Feb",
+      YearOfLeaving: "2021",
+      duration: "1 yr 1 mo",
       Location: "Milwaukee, WI",
       line1:
         "• Updated legacy Java applications to newer Java versions as well as Python to further improve the efficiency and application capabilities",

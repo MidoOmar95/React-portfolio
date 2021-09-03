@@ -90,11 +90,13 @@ let resumeData = {
       duration: "Ongoing",
       Location: "Jersey City, NJ",
       line1:
-        "• ",
+        "• Created a UI application for a new upcoming project and pioneered the UI vision of the application for the future",
       line2:
-        "• ",
+        "• Employed wireframes and UI mock screens with Balsamiq and IntelliJ to further clarify the goals of the application to the team",
       line3:
-        "• "
+        "• Applied Java Spring functionalities to the application and its communication with backend technologies to expedite development",
+      line4:
+          "• Utilized current ReactJS frameworks to enhance another application capabilities for operation team’s day-to-day usage"
     },
     {
       CompanyName: "Northwestern Mutual",

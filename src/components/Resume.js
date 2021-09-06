@@ -132,7 +132,6 @@ export default function Resume(props) {
                 resumeData.lang.map((item,i) => {
                   return (
                     <ScrollAnimation animateIn='flipInY' animateOnce={true} style={{margin:"15px",display:"inline-block",textAlign:"center"}} key={i}>
-                    <a>
                       <button style={{marginBottom:"0px",height:"75px",width:"75px"}}>
                     <img
                       src={item.logo}
@@ -141,7 +140,6 @@ export default function Resume(props) {
                     />
                     </button>
                     <p style={{fontSize:"15px"}}>{item.name}</p>
-                  </a>
               </ScrollAnimation>
                   );
                 })}
@@ -164,7 +162,6 @@ export default function Resume(props) {
                 resumeData.tech.map((item,i) => {
                   return (
                     <ScrollAnimation animateIn='flipInY' animateOnce={true} style={{display:"inline-block",textAlign:"center"}} key={i}>
-                    <a>
                       <button style={{margin:"10px",marginBottom:"0px",height:"75px",width:"75px"}} onClick={()=> window.open(item.link, "_blank")}>
                     <img
                       src={item.logo}
@@ -173,7 +170,6 @@ export default function Resume(props) {
                     />
                     </button>
                     <p style={{fontSize:"15px"}}>{item.name}</p>
-                  </a>
                   </ScrollAnimation>
                   );
                 })}

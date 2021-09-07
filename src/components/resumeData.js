@@ -34,7 +34,7 @@ let resumeData = {
   name: "Mohamed Omar",
   role: "Full-stack Software Engineer",
   roleDescription:
-    " Outgoing Full-stack Software Engineer with multiple experiences at corporate companies including College Board, IBM, Microsoft & most recently Northwestern Mutual. Relishing the opportunity to turn my ambition to useful motivation at a multinational company where I can capitalize on my knowledge and further develop my skills. Seeking to leverage my technical and professional expertise to grow in the new role of Software Engineer at your company.",
+    " Outgoing Full-stack Software Engineer with multiple experiences at corporate companies including College Board, Northwestern Mutual, IBM, Microsoft & most recently JP Morgan Chase. Relishing the opportunity to turn my ambition to useful motivation at a multinational company where I can capitalize on my knowledge and further develop my skills. Seeking to leverage my technical and professional expertise to grow in the new role of Software Engineer at your company.",
   socialLinks: [
     {
       name: "linkedin",

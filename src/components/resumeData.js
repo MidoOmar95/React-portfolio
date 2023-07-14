@@ -90,7 +90,7 @@ let resumeData = {
       duration: "Ongoing",
       Location: "Jersey City, NJ",
       line1:
-        "• Created a UI application for a new upcoming project and pioneered the UI by Utilizing React and Typescript",
+        "• Created a UI application for a new upcoming project and pioneered the UI by utilizing React and Typescript",
       line2:
         "• Employed Amazon Web Services for server-side operations including DynamoDb for tables, Cloudwatch for monitoring and S3 Buckets for storing data",
       line3:

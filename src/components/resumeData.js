@@ -75,7 +75,7 @@ let resumeData = {
       MonthOfPassing: "Jun",
       YearOfPassing: "2018",
       Location: "Cairo, Egypt",
-      Achievements: "Major: Computer Science and Engineering, CGPA: 3.35/4.0"
+      Achievements: "Major: Computer Science and Engineering"
     }
   ],
   work: [
@@ -90,11 +90,11 @@ let resumeData = {
       duration: "Ongoing",
       Location: "Jersey City, NJ",
       line1:
-        "• Created a UI application for a new upcoming project and pioneered the UI vision of the application for the future",
+        "• Created a UI application for a new upcoming project and pioneered the UI by Utilizing React and Typescript",
       line2:
-        "• Employed wireframes and UI mock screens with Balsamiq and IntelliJ to further clarify the goals of the application to the team",
+        "• Employed Amazon Web Services for server-side operations including DynamoDb for tables, Cloudwatch for monitoring and S3 Buckets for storing data",
       line3:
-        "• Applied Java Spring functionalities to the application and its communication with backend technologies to expedite development",
+        "• Applied Java Spring functionalities to the application and its communication with AWS technologies to expedite development",
       line4:
           "• Utilized current ReactJS frameworks to enhance another application capabilities for operation team’s day-to-day usage"
     },

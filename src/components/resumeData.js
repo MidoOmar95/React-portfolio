@@ -56,18 +56,18 @@ let resumeData = {
     //   url: "https://stackoverflow.com/users/7728625/mohamed-omar",
     //   className: "fab fa-stack-overflow"
     // },
-    {
-      name: "Revature Profile",
-      url:"https://app.revature.com/profile/Mido/a2e99c335abdd45da0aa01725053111f",
-      className:"fas fa-user-tie"
-    },
+    // {
+    //   name: "Revature Profile",
+    //   url:"https://app.revature.com/profile/Mido/a2e99c335abdd45da0aa01725053111f",
+    //   className:"fas fa-user-tie"
+    // },
     {
       name: "Email",
       url: "mailto:mohamedwomar21@gmail.com",
       className: "fas fa-envelope"
     },
   ],
-  address: "Reston, VA, USA",
+  address: "Jersey City, NJ, USA",
   education: [
     {
       UniversityName: "The German University in Cairo",
@@ -96,7 +96,7 @@ let resumeData = {
       line3:
         "• Applied Java Spring functionalities to the application and its communication with AWS technologies to expedite development",
       line4:
-          "• Utilized current ReactJS frameworks to enhance another application capabilities for operation team’s day-to-day usage"
+        "• Utilized current ReactJS frameworks to enhance another application capabilities for operation team’s day-to-day usage"
     },
     {
       CompanyName: "Northwestern Mutual",

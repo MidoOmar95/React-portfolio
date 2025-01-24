@@ -122,6 +122,35 @@ export default function Resume(props) {
       <div className="row skill">
         <div className="three columns header-col">
           <h1>
+            <span>Certifications</span>
+          </h1>
+        </div>
+        <div className="nine columns main-col">
+          <div className="bars">
+            <ul className="skills">
+              {resumeData.certs &&
+                resumeData.certs.map((item,i) => {
+                  return (
+                    <ScrollAnimation animateIn='flipInY' animateOnce={true} style={{margin:"15px",display:"inline-block",textAlign:"center"}} key={i}>
+                      <button style={{marginBottom:"0px",height:"75px",width:"75px"}}>
+                    <img
+                      src={item.logo}
+                      style={{ height: "45px", width:"100%", paddingTop: "1px" }}
+                      alt="Lang"
+                    />
+                    </button>
+                    <p style={{fontSize:"15px"}}>{item.name}</p>
+              </ScrollAnimation>
+                  );
+                })}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="row skill">
+        <div className="three columns header-col">
+          <h1>
             <span>Languages</span>
           </h1>
         </div>

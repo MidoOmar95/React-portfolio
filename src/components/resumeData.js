@@ -1,4 +1,5 @@
 import js from "../media/js.png";
+import ts from "../media/ts.png";
 import java from "../media/java.png";
 import cs from "../media/csh.png";
 import css from "../media/css.png";
@@ -235,13 +236,17 @@ let resumeData = {
   certs: [
     {
       logo: ppmb,
-      name: "Pendo Product Management Basics",
+      name: "Pendo PM Basics",
     }
   ],
   lang: [
     {
       logo: js,
       name: "JavaScript",
+    },
+    {
+      logo: ts,
+      name: "TypeScript",
     },
     {
       logo: html,

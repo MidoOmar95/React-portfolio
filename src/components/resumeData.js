@@ -28,13 +28,14 @@ import web from "../media/ws.jpg";
 import ss from "../media/ss.png";
 import ers from "../media/ers.jpg";
 import pit from "../media/pit.jpg";
+import ppmb from "../media/ppmb.png";
 
 let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Mohamed Omar",
   role: "Full-stack Software Engineer",
   roleDescription:
-    " Outgoing Full-stack Software Engineer with multiple experiences at corporate companies including College Board, Northwestern Mutual, IBM, Microsoft & most recently JP Morgan Chase. Relishing the opportunity to turn my ambition to useful motivation at a multinational company where I can capitalize on my knowledge and further develop my skills. Seeking to leverage my technical and professional expertise to grow in the new role of Software Engineer at your company.",
+    " Full-stack Software Engineer currently working at J.P. Morgan Chase & Co, with multiple experiences at corporate companies including College Board, Northwestern Mutual, IBM, & Microsoft. Relishing the opportunity to turn my ambition to useful motivation at a multinational company where I can capitalize on my knowledge and further develop my skills. Seeking to leverage my technical and professional expertise to grow in the new role of Technical Product Manager at your company.",
   socialLinks: [
     {
       name: "linkedin",
@@ -80,7 +81,7 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "JP Morgan Chase & Co",
+      CompanyName: "J.P. Morgan Chase & Co",
       specialization: "Software Engineer",
       JobType: "Full-time",
       MonthOfStarting: "Feb",
@@ -229,6 +230,12 @@ let resumeData = {
         "• Receive hours of individualized coaching and instruction to be able to train and develop the skills of the debaters",
       line2:
         "• Train and develop debating skills in the team assigned to and give weekly feedback to members after each debate "
+    }
+  ],
+  certs: [
+    {
+      logo: ppmb,
+      name: "Pendo Product Management Basics",
     }
   ],
   lang: [

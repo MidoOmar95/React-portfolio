@@ -5,38 +5,6 @@ export default function Resume(props) {
   return (
     <section id="resume">
 
-      <div className="row education">
-        <div className="three columns header-col">
-          <h1>
-            <span>Education</span>
-          </h1>
-        </div>
-        <div className="nine columns main-col">
-        <ScrollAnimation animateIn='bounceInRight' animateOnce={true}>
-          {resumeData.education &&
-            resumeData.education.map((item,i) => {
-              return (
-                <div className="row item" key={i}>
-                  <div className="twelve columns">
-                    <h3>{item.UniversityName}</h3>
-                    <p className="info">
-                      {item.specialization}
-                      <span>&bull;</span>{" "}
-                      <em className="date">
-                        {item.MonthOfPassing} {item.YearOfPassing}
-                      </em>
-                      <span>&bull;</span>{" "}
-                      <em className="date">{item.Location}</em>
-                    </p>
-                    <p>{item.Achievements}</p>
-                  </div>
-                </div>
-              );
-            })}
-            </ScrollAnimation>
-        </div>
-      </div>
-
       <div className="row work">
         <div className="three columns header-col">
           <h1>
@@ -132,7 +100,7 @@ export default function Resume(props) {
                 resumeData.certs.map((item,i) => {
                   return (
                     <ScrollAnimation animateIn='flipInY' animateOnce={true} style={{margin:"15px",display:"inline-block",textAlign:"center"}} key={i}>
-                      <button style={{marginBottom:"0px",height:"75px",width:"75px"}}>
+                      <button style={{marginBottom:"0px",height:"75px",width:"75px"}} onClick={()=> window.open(item.link, "_blank")}>
                     <img
                       src={item.logo}
                       style={{ height: "45px", width:"100%", paddingTop: "1px" }}
@@ -204,6 +172,38 @@ export default function Resume(props) {
                 })}
             </ul>
           </div>
+        </div>
+      </div>
+
+      <div className="row education">
+        <div className="three columns header-col">
+          <h1>
+            <span>Education</span>
+          </h1>
+        </div>
+        <div className="nine columns main-col">
+        <ScrollAnimation animateIn='bounceInRight' animateOnce={true}>
+          {resumeData.education &&
+            resumeData.education.map((item,i) => {
+              return (
+                <div className="row item" key={i}>
+                  <div className="twelve columns">
+                    <h3>{item.UniversityName}</h3>
+                    <p className="info">
+                      {item.specialization}
+                      <span>&bull;</span>{" "}
+                      <em className="date">
+                        {item.MonthOfPassing} {item.YearOfPassing}
+                      </em>
+                      <span>&bull;</span>{" "}
+                      <em className="date">{item.Location}</em>
+                    </p>
+                    <p>{item.Achievements}</p>
+                  </div>
+                </div>
+              );
+            })}
+            </ScrollAnimation>
         </div>
       </div>
     </section>

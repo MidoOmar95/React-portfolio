@@ -18,8 +18,10 @@
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.3.4",
     "react-scripts": "^5.0.1",
+    "resume": "file:",
     "sass": "^1.83.4",
-    "semver": "^7.6.3"
+    "semver": "^7.6.3",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "react-scripts start",

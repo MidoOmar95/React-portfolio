@@ -30,13 +30,15 @@ import ss from "../media/ss.png";
 import ers from "../media/ers.jpg";
 import pit from "../media/pit.jpg";
 import ppmb from "../media/ppmb.png";
+import lil from "../media/lil.png";
+import cspo from "../media/cspo.png";
 
 let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Mohamed Omar",
-  role: "Full-stack Software Engineer",
+  role: "Software Engineer",
   roleDescription:
-    " Full-stack Software Engineer currently working at J.P. Morgan Chase & Co, with multiple experiences at corporate companies including College Board, Northwestern Mutual, IBM, & Microsoft. Relishing the opportunity to turn my ambition to useful motivation at a multinational company where I can capitalize on my knowledge and further develop my skills. Seeking to leverage my technical and professional expertise to grow in the new role of Technical Product Manager at your company.",
+    "Software Engineer currently working at J.P. Morgan Chase & Co, with multiple experiences at corporate companies including College Board, Northwestern Mutual, IBM, & Microsoft. Relishing the opportunity to turn my ambition to useful motivation at a multinational company where I can capitalize on my knowledge and further develop my skills. Seeking to leverage my technical and professional expertise to grow in the new role of Technical Product Manager at your company.",
   socialLinks: [
     {
       name: "linkedin",
@@ -235,8 +237,19 @@ let resumeData = {
   ],
   certs: [
     {
+      logo: cspo,
+      name: "Certified Scrum Product Owner",
+      link: "https://drive.google.com/file/d/1Q38tphQUpeGw1qdOlgZHPNovGHbVOKk3/view?usp=sharing"
+    },
+    {
       logo: ppmb,
       name: "Pendo PM Basics",
+      link: "https://www.pendo.io/product-management-basics-certification"
+    },
+    {
+      logo: lil,
+      name: "LiL Transition to Product",
+      link: "https://drive.google.com/file/d/1cQdJ3zlEdAYEUPKSBHl9Ja6Hd8uXAGf7/view?usp=sharing"
     }
   ],
   lang: [

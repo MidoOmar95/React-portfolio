@@ -9,15 +9,11 @@ import {
   DiCss3,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiPostgresql,
   SiCsharp,
   SiTypescript,
-  SiMysql,
   SiKotlin,
 } from "react-icons/si";
-import { TbBrandGolang, TbSql } from "react-icons/tb";
+import { TbSql } from "react-icons/tb";
 
 function Techstack() {
   return (

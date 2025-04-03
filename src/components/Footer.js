@@ -1,30 +1,52 @@
 import React from "react";
-export default function Footer(props) {
-  let resumeData = props.resumeData;
+import { Container, Row, Col } from "react-bootstrap";
+import {
+  AiFillGithub,
+  AiOutlineMail,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
+function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
   return (
-    <footer>
-      <div className="row">
-        <div className="twelve columns">
-          <ul className="social-links">
-            {resumeData.socialLinks &&
-              resumeData.socialLinks.map((item,i) => {
-                return (
-                  <li  key={i}>
-                    <a href={item.url} rel="noopener noreferrer" target="_blank">
-                      <i className={item.className} />
-                    </a>
-                  </li>
-                );
-              })}
+    <Container fluid className="footer">
+      <Row>
+          <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://github.com/MidoOmar95"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/mwomar/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:mohamedwomar21@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail />
+              </a>
+            </li>
           </ul>
-        </div>
-        <p style={{color:"white"}}>© 2020 Mohamed Omar. All rights reserved.</p>
-        <div id="go-top">
-          <a className="smoothscroll" title="Back to Top" href="#home">
-            <i className="icon-up-open" />
-          </a>
-        </div>
-      </div>
-    </footer>
+      </Row>
+    </Container>
   );
 }
+
+export default Footer;
